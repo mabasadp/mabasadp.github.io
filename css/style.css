@@ -228,24 +228,24 @@ section{
 		top: 0;
 		left: 0;
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		background: rgba(1, 1, 1, 0.5);
+		justify-content: left;
+		align-items: left;
+		background: rgba(1, 1, 1, 0.637);
 	}
 
 	header .navigation .navigation-items a{
 		color: #222;
-		font-size: 1.2em;
-		margin: 20px;
+		font-size: 1em;
+		margin: 10px;
 	}
 
 	header .navigation .navigation-items a:before{
 		background: #222;
-		height: 5px;
+		height: 2px;
 	}
 
 	header .navigation.active .navigation-items{
-		background: #fff;
+		background: blue;
 		width: 600px;
 		max-width: 600px;
 		margin: 20px;
@@ -265,6 +265,8 @@ section{
 		height: 40px;
 		cursor: pointer;
 		transition: 0.3s ease;
+		font-size: 1.5rem;
+		font-weight: bold;
 	}
 	.menu-btn.active{
 		z-index: 999;
