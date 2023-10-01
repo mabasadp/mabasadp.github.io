@@ -228,9 +228,19 @@
 	</script>
 	
 	<div class="footer">
-		<div class="last-update">Last updated: 1, November 2022</div>
+		<div class="last-update" class="copyright" >&copy; Last updated: 1, October 2022-<span id="currentYear"></span>    </div>
 	</div>
+	</body>
+
+	<!-- copryright current year -->
+	<script>
+		var date = new Date();
+		var year = date.getFullYear();
+		document.getElementById("currentYear").innerHTML = year;
+	</script>
+
 	<!-- footer section - last updated -->
+	
 	<style>
 		.footer{
 			display:flex;
@@ -238,6 +248,11 @@
 			font-family: 'poppins';
 			background-color: #222;
 			color: rgb(223, 174, 142);
+		}
+
+		#clock {
+			color: white;
+			background: black;
 		}
 	</style>
 
