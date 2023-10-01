@@ -2,11 +2,15 @@
 <html lang="en" dir="ltr">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Port-foliosasas</title>
+	<title>Portfolio</title>
+	<link rel="shortcut icon" type="x-icon" href="img/portfolio.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style_2.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+	<script src="script.js" defer></script>
 </head>
 <body >
 	<header >
@@ -20,8 +24,8 @@
 				<li class="menu-item">
 					<a class="sub-btn" href="#">Profile<i class="fas fa-angle-down"></i></a>
 					<ul class="sub-menu">
-						<li class="sub-item"><a href="#">Resume/CV</a></li>
-						<li class="sub-item"><a href="#">Download Files</a></li>
+						<li class="sub-item"><a href="https://drive.usercontent.google.com/download?id=1YguympWH-CXUlA086oCIpxBQp4HICcBH&export=download&authuser=0&confirm=t&uuid=68027047-a148-4816-bbbd-f2f95dc4b2f5&at=APZUnTU5_2NSKsk-su5yV7_XNGsT:1696148948869">CV</a></li>
+						<li class="sub-item"><a href="#">DownloadFiles</a></li>
 						<li class="sub-item"><a href="Gallery Section.html">Gallery</a></li>
 						<li class="sub-item more">
 							<a class="more-btn" href="#">Other More <i class="fas fa-angle-right"></i></a>
@@ -34,12 +38,13 @@
 					</ul>
 				</li>
 				<li class="menu-item"><a href="#">Blog</a></li>
-
+				<li class="bi bi-brightness-high-fill" id="toggleDark"></li>
 			</ul>
 
 		</div>
 
 	</header>
+
 	<style>
 		header .navigation{
 			position: relative;
@@ -69,7 +74,7 @@
 		.menu-item .sub-menu{
 			position: absolute;
 			background: #23252b;
-			top: 74px;
+			top: 60px;
 			line-height: 40px;
 			list-style: none;
 			border-radius: 0 0 8px 8px;
