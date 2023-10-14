@@ -15,17 +15,17 @@
 <body >
 	<header >
 		<a href="#" class="logo">
-			<img src="img/danlogo.png" alt="">
+			<img src="img/danlogo.png">
 		</a>
 		<div class="menu-btn"></div>
 		<div class="navigation">
 			<ul class="menu">
-				<li class="menu-item"><a href="#">Home</a></li>
+				<li class="menu-item"><a href="index.html">Home</a></li>
 				<li class="menu-item">
 					<a class="sub-btn" href="#">Profile<i class="fas fa-angle-down"></i></a>
 					<ul class="sub-menu">
 						<li class="sub-item"><a href="img/cv.png">Curriculum Vitae</a></li>
-						<li class="sub-item"><a href="#">DownloadFiles</a></li>
+						<li class="sub-item"><a href="upload file.html">DownloadFiles</a></li>
 						<li class="sub-item"><a href="gallery.html">Gallery</a></li>
 						<li class="sub-item more">
 							<a class="more-btn">Other More <i class="fas fa-angle-right"></i></a>
@@ -39,8 +39,6 @@
 				<li class="menu-item"><a href="index.html">About</a></li>
 				<li class="menu-item"><a href="contact.html">Contact</a></li>
 
-				<!---toggle - night/high light-->
-				<li class="bi bi-brightness-high-fill" id="toggleDark"></li>
 			</ul>
 
 		</div>
@@ -154,8 +152,8 @@
 
 
 	<section class="home" >
-		<video class="video-slide active" src="clip/video1.mp4" autoplay muted loop></video>
 		<video class="video-slide active" src="clip/video.mp4" autoplay muted loop></video>
+		<video class="video-slide active" src="clip/video1.mp4" autoplay muted loop></video>
 
 
 		<div  class="content active" >
@@ -185,8 +183,10 @@
 	</section>
 
 	<!-- Port-folio homepage -->
-	<section class="section">
-		<div class="section__container">
+	<section   class="section">
+		<li class="bi bi-brightness-high-fill" id="toggleDark">      light/Dark Mode</li>
+
+		<div class="section__container" >
 		  <div class="content">
 			<p class="subtitle">HELLO</p>
 			<h1 class="title">
